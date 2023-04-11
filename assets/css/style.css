@@ -247,7 +247,7 @@ body {
 }
 
 .header-bottom.active {
-  position: fixed;
+  position: sticky;
   top: -81px;
   background-color: var(--white);
   box-shadow: var(--shadow-2);
@@ -328,6 +328,7 @@ body {
   background-size: cover;
   background-position: center;
   padding-block-end: calc(var(--section-padding) / 2);
+  position: relative;
 }
 
 .hero-content { margin-block-end: 50px; }
